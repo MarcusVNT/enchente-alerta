@@ -1,0 +1,14 @@
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* utilities */
+@import "./ultilidades/colors.css";
+@import "./ultilidades/typography.css";
+@import "./ultilidades/components.css";
+
+/* pages */
+@import "../css/evacuation/evacuation.css";
+@import "../css/home/home.css";
+@import "../css/infrastructure/infrastructure.css";
+@import "../css/weather-data/weather-data.css";
