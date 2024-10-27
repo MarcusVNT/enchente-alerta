@@ -35,15 +35,16 @@
 }
 
 .chamada {
-  padding: 10px 40px;
+  padding: 12px 40px;
   font-size: 20px;
   font-weight: 600;
   background-color: #93a325;
-  border: 0;
   border-radius: 30px;
   cursor: pointer;
-  display: block;
+  /* display: block; */
   text-align: center;
+  margin-top: 16px;
+  margin-bottom: 32px;
 }
 
 .texto-sobre button {
@@ -61,8 +62,10 @@
 }
 
 #rodape {
-  padding-top: 5%;
   text-align: center;
+  background-color: #ffffff;
+  border-top: 1px solid #247844;
+  padding-top: 16px;
 }
 .lista ul li {
   list-style-type: disc;
