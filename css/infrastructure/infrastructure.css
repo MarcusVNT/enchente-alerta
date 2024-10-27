@@ -62,10 +62,13 @@
 }
 
 #rodape {
+  /* display: grid; */
   text-align: center;
   background-color: #ffffff;
   border-top: 1px solid #247844;
   padding-top: 16px;
+  /* max-width: 1140px;
+  justify-content: center; */
 }
 .lista ul li {
   list-style-type: disc;
