@@ -1,0 +1,74 @@
+.logo {
+  width: 50%;
+}
+
+.menu {
+  padding-top: 30px;
+  width: 50%;
+  text-align: right;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  font-weight: 15px;
+  margin-right: 15px;
+}
+
+.parágrafo {
+  padding: 1%;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.imagem1 {
+  text-align: center;
+}
+
+.imagem2 {
+  text-align: center;
+}
+
+.seleção {
+  color: #247844;
+  font-weight: bold;
+}
+
+.chamada {
+  padding: 10px 40px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #93a325;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+}
+
+.texto-sobre button {
+  border: 0;
+  background-color: #017143;
+  color: white;
+  border-radius: 8px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.cadastro {
+  margin: 16px;
+}
+
+#rodape {
+  padding-top: 5%;
+  text-align: center;
+}
+.lista ul li {
+  list-style-type: disc;
+  font-size: 20px;
+}
+
+.lista ul {
+  margin-top: 16px;
+}

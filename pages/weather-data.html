@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>EA | Monitoramento</title>
+  <link href="../css/style.css" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+</head>
+
+<body>
+  <header>
+    <div class="header container">
+      <div style="width: 300px">
+        <a href="../">
+          <img src="../img/home/logo.png" alt="recode pro ai">
+        </a>
+      </div>
+      <nav>
+        <ul class="conatainer header-menu font-1-m cor-12">
+          <li><a href="../pages/weather-data.html">Meteorologia</a></li>
+          <li><a href="../pages/evacuation.html">Evacuação</a></li>
+          <li><a href="../pages/infrastructure.html">Infraestrutura</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!--Aqui é o começo da minha main da página de Monitoramento logo após o menu-->
+  <main class="container">
+    <div class="espaco">
+      <h1>Vigilância</h1>
+      <p>
+        O monitoramento de enchentes é crucial para a segurança pública e a proteção da propriedade.
+        Com informações precisas e em tempo real, comunidades podem se preparar melhor para os riscos
+        associados a enchentes e tomar medidas preventivas para minimizar danos.
+      </p>
+      <p>
+        Esta página oferece informações atualizadas sobre a situação das enchentes em nossa região,
+        incluindo dados em tempo real, previsões meteorológicas, alertas, e mapas das áreas afetadas.
+        Nosso objetivo é fornecer um recurso valioso para os cidadãos e autoridades locais na tomada
+        de decisõesinformadas.
+      </p>
+    </div>
+    <!--parte onde vai ter o mapa meteorológico-->
+    <div class="espaco">
+      <h2>Previsão do Tempo</h2>
+    </div>
+    <div class="grid2">
+      <div class="caixaAlinhado" style="max-width: 500px"><!--atento-->
+        <div class="maiorcaixa">
+          <input class="inputCidade" placeholder="Digite o nome da Cidade">
+          <button class="botaoBusca">
+            <img class="imgBusca" src="../img/weather-data/lupa.png" alt="buscar">
+          </button>
+
+          <div class="mediaCaixa">
+            <div>
+              <h2 class="tituloCidade">Tempo em Alegrete</h2>
+              <p class="graus">23 °C</p>
+            </div>
+
+            <div class="menorCaixa">
+              <img class="icon-previsao" src="../img/weather-data/icon-previsao.png" alt="icon-previsao" width="50px">
+              <p class="tempo">Nublado</p>
+            </div>
+
+            <p class="umidade">Umidade: 67%</p>
+          </div>
+        </div>
+      </div> <!--atento-->
+
+      <!--parte das áreas de risco-->
+      <div class="espaco">
+        <h2>Áreas de Risco</h2>
+        <p>Publicação do Mapa: 19/05/2024 às 23h00min</p>
+        <p>Essas são as principais áreas de risco do estado: </p>
+        <img class="mapa" style="max-width: 500px;" src="../img/weather-data/mapa.jpeg" alt="mapaMetereologico">
+        <p>Para mais informações acesse:
+          <a href="https://defesacivil.rs.gov.br/areas-com-risco-hidrologico" target="_blank">
+            Defesa Civil - Área de Risco Hidrológico
+          </a>
+        </p>
+      </div>
+    </div>
+    <div class="espaco">
+      <h2>Histórico de Desastres</h2>
+      <p>Nos últimos meses, enfrentamos um dos piores desastres naturais já registrados,
+        com repercussão internacional e manchetes ao redor do mundo, para informar do ocorrido
+        aqui estão alguns registros dos estragos feitos pela água:"
+      </p>
+      <img class="registro-enchente" src="../img/weather-data/enchente.jpeg" alt="registro-enchente">
+      <p>Porto-Alegre-RS</p>
+      <img class="registro" src="../img/weather-data/enchente1.jpg" alt="enchente">
+    </div>
+  </main>
+</body>
+
+</html>
